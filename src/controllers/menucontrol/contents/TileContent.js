@@ -56,9 +56,12 @@ export default class TileContent extends Content {
     this.section('structure')
     this.text(this.texts.structureInformationTexts.structure + ': ' +
       structure.structureName)
+    this.text(this.texts.structureInformationTexts.owner + ': ' +
+      structure.ownerName)
     this.text(this.texts.structureInformationTexts.foundingYear + ': ' +
       structure.foundingYear)
     
+    this.section('productioninfo')
     this.text(this.texts.structureInformationTexts.size + ': ' + structure.size())
     if (structure.structureType.type !== 'special') {
       this.showProductionInformation(structure)

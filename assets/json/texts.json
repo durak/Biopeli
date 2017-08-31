@@ -105,6 +105,7 @@
 
     "structureInformationTexts": {
       "structure": "Rakennus",
+      "owner": "Rakennuksen omistaja",
       "foundingYear": "Perustamisvuosi",
       "size": "Koko",
       "turnipsPerWeek": "Tuotanto (nauriita/vko)",

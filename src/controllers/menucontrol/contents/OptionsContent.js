@@ -55,26 +55,28 @@ export default class OptionsContent extends Content {
   }
 
   createSections () {    
-    this.sectionName('options')
+    this.sectionName('voice')
     this.text(this.texts.soundVolume + ': ' + Math.round(this.game.music.volume * 100) + '%')
     if (this.game.music.mute) {
-      this.button(this.texts.soundOn, this.musicOn, this)
+      this.button(this.texts.soundOn, this.musicOn, this, 'unusableButton')
     } else {
-      this.button(this.texts.soundOff, this.musicOff, this, 'unusableButton')
+      this.button(this.texts.soundOff, this.musicOff, this)
     }
-    if (!this.telegramStorage.hints) {
-      this.button(this.texts.hintsOn, this.hintsOn, this)
-    } else {
-      this.button(this.texts.hintsOff, this.hintsOff, this, 'unusableButton')
-    }    
     this.button(this.texts.increaseVolume, this.incVolume, this)
     this.button(this.texts.decreaseVolume, this.decVolume, this)
-    this.button(this.texts.endGame, this.game.gameEvents.finishGame, this.game.gameEvents)
-    this.button(this.texts.pause, this.pause, this)
-    if (!this.game.state.scale.isFullScreen) {
-      this.button(this.texts.fullscreenOn, this.fullscreen, this)
+    this.section('onofff')
+    if (!this.telegramStorage.hints) {
+      this.button(this.texts.hintsOn, this.hintsOn, this, 'unusableButton')
     } else {
-      this.button(this.texts.fullscreenOff, this.fullscreen, this, 'unusableButton')
+      this.button(this.texts.hintsOff, this.hintsOff, this)
+    }    
+    if (!this.game.state.scale.isFullScreen) {
+      this.button(this.texts.fullscreenOn, this.fullscreen, this, 'unusableButton')
+    } else {
+      this.button(this.texts.fullscreenOff, this.fullscreen, this)
     }
+    this.section('end')
+    this.button(this.texts.pause, this.pause, this)
+    this.button(this.texts.endGame, this.game.gameEvents.finishGame, this.game.gameEvents)
   }
 }
