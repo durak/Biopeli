@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "node"
+after_success: npm run coverage
+before_deploy: 
+  - npm run deploy
+  - sed -i '/dist/d' ./.gitignore
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master

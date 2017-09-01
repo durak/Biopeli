@@ -1,0 +1,132 @@
+{
+  "gameSettings": {
+    "windowSize": {
+      "maxWidth": 1600,
+      "maxHeight": 900,
+      "minWidth": 1280,
+      "minHeight": 720
+    },
+
+    "localStorageName": "biopeli",
+
+    "scoreServer": "https://biopelihighscores.herokuapp.com/",
+
+    "mailToAddress": "biotalouspeli@mtech.fi",
+
+    "fonts": {
+      "fontBig": "64px Arial",
+      "fontNormal": "32px Arial",
+      "fontSmall": "16px Arial",
+      "fontWeightBold": "bold",
+      "fontFill": "#ffff00"
+    }
+  },
+
+  "sideMenuSettings": {
+    "menuWidth": 256,
+    "leftPadding": 35,
+    "buttonWidth": 189,
+    "buttonHeight": 66,
+    "textStartingPoint": 0.5,
+    "linePadding": 8,
+    "sectionPadding": 18,
+    "mediumFont": 16,
+    "largeFont": 32
+  },
+
+  "topBarSettings": {
+    "height": 64,
+    "linePadding": 5,
+    "smallFont": 20,
+    "mediumFont": 30
+  },
+
+  "bottomMenuSettings": {
+    "height": 64,
+    "buttonWidth": 64,
+    "buttonHeight": 64,
+    "linePadding": 1
+  },
+
+  "mapSettings": {
+    "mapSize": {
+      "width": 32,
+      "height": 32
+    },
+
+    "tileSize": {
+      "width": 64,
+      "height": 64
+    },
+
+    "camera": {
+      "speed": 200,
+      "tweenDuration": 500
+    },
+
+    "noise": {
+      "freqs": {
+        "groundfreq": 10,
+        "forestfreq": 20,
+        "fertilityfreq": 6
+      },
+      "noiseWidth": 64,
+      "noiseHeight": 64
+    },
+
+    "generatingSettings": {
+      "groundLimit": -0.3,
+      "forestLimit": -0.2
+    }
+  },
+
+  "gameplaySettings": {
+    "time": {
+      "startYear": 2000,
+      "gameLength": 960,
+      "gameTimerInterval": 1000
+    },
+
+    "player": {
+      "initialCash": 20000,
+      "currency": "Ag"
+    },
+
+    "city": {
+      "initialPopulation": 10000,
+      "demandMultiplier": 1,
+      "demandRandomVariance": 0.1,
+      "startTurnipPrice": 1,
+      "populationChangeAt100": 1.5,
+      "populationChangeAt200": 2
+    },
+
+    "structures": {
+      "moveCosts": {
+        "grass": 1,
+        "water": 5,
+        "forest": 2,
+        "field": 1,
+        "industrial": 1
+      },
+
+      "ruinSettings": {
+        "minRuin": 12,
+        "maxRuin": 48,
+        "fixMultiplier": 2
+      }
+    },
+
+    "tiles": {
+      "maxFlowers": 10
+    }
+  },
+
+  "randomEventSettings": {
+    "minTime": 48,
+    "maxTime": 240,
+    "maxSearched": 10,
+    "eventContentIndex": -1,
+    "bioFactFrequencyMinMax": 96
+  }
+}

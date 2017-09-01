@@ -1,0 +1,50 @@
+{
+  "name": "Biopeli",
+  "version": "1.0.0",
+  "description": "",
+  "author": "tkt biopeli team",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack",
+    "deploy": "webpack --config webpack.production.config.js",
+    "test": "eslint \"src/**/*.js\"; nyc mocha --timeout=3000 --require babel-register \"test/**/*.js\"",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "eslint": "eslint \"src/**/*.js\";"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.12",
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "chai": "*",
+    "coveralls": "^2.13.1",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "exports-loader": "^0.6.4",
+    "expose-loader": "^0.7.3",
+    "jasmine": "^2.6.0",
+    "mocha": "^3.4.1",
+    "mocha-loader": "^1.1.1",
+    "noisejs": "^2.1.0",
+    "nyc": "^11.0.2",
+    "qunit": "^1.0.0",
+    "rainbowvis.js": "^1.0.1",
+    "sinon": "^2.3.0",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "collections": "^5.0.6",
+    "phaser-ce": "^2.7.9",
+    "@orange-games/phaser-input": "^2.0.5",
+    "phaser-kinetic-scrolling-plugin": "^1.0.4",
+    "webfontloader": "^1.6.27"
+  }
+}

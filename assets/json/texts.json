@@ -1,0 +1,142 @@
+{
+  "prePlayStateTexts": {
+    "gameDescription": "MTechin tilaama peli biotaloudesta ja ruokaketjusta.",
+    "startGame": "Aloita peli",
+    "instructions": "Ohjeet",
+    "instructionsDescription": "\nRakenna alku- sekä jatkotuotantorakennuksia.\nOptimoi rakentamista tarkkailemalla maaperän kosteutta ja ravinteita.\nVastaa kaupungin kysyntään.\nMuista myös varoa ylituotantoa.",
+    "toStart": "Alkuun",
+    "back": "Takaisin"
+  },
+
+  "gameOverState": {
+    "enterName": "Syötä nimesi",
+    "endScore": "Loppupisteesi",
+    "endCitySize": "Kaupungin koko",
+    "highscores": "Tulokset",
+    "toStart": "Alkuun",
+    "back": "Takaisin",
+    "mailTo": "Palaute"
+  },
+
+  "buildStructureTexts": {
+    "structureType": "Tyyppi",
+    "health": "Kestävyys",
+    "owningRadius": "Omistusetäisyys",
+
+    "constantPollution": "Saastutus vakio koko alueella",
+    "pilePollution": "Saastutus alkuarvo keskellä ja pienenee ulospäin",
+    "pollutionRadius": "Saastutusetäisyys",
+    "pollutionAmount": "Saastutusmäärä",
+
+    "continuousProduction": "Tuotanto jatkuvaa",
+    "harvest": "Sadonkorjuu",
+    "week": "viikko",
+    "month": "kuu",
+    "takesOwnership": "Käyttömaa",
+    "revenue": "Tuotto",
+    "fertility": "Ihanneravinteikkuus",
+    "moisture": "Ihannekosteus",
+    "tileMoisture": "Ruudun kosteus",
+    "tileFertility": "Ruudun ravinteikkuus",
+
+    "multiplier": "Kerroin",
+    "refineryReach": "Hakuetäisyys",
+    "buysFrom": "Käyttää rakennuksia",
+    "refineryBuysFromAll": "kaikki",
+    "refineryTakes": "Kuluttaa omistamiensa tuotannon",
+    "refineryNotTakes": "Ei kuluta omistamiensa tuotantoa",
+
+    "environmentEffect": "Ympäristövaikutus",
+    "eReach": "Vaikutusalue",
+    "eFertility": "Ravinteikkuus",
+    "eMoisture": "Kosteus",
+    "eFlowers": "Puhtaus",
+
+    "errorType": "Virheellinen rakennustyyppi. Lähetä vihainen kirje pelin tekijöille.",
+    
+    "cost": "Hinta",
+    "build": "Rakenna",
+    "insufficientFunds": "Rahat eivät riitä"
+  },
+
+  "cityContentTexts": {
+    "city": "Kaupunki",
+    "population": "Väkiluku",
+    "yearlyDemand": "Vuosittainen kysyntä",
+    "demandFulfilled": "Kysyntään vastattu",
+    "turnipPrice": "Nauriin hinta",
+    "telegramServiceName": "Uutissähkeet",
+    "welcomeTelegram": "Kaupungin asukkailla on nälkä, äkkiä turnipseja!"
+  },
+
+  "telegramTexts": {
+    "factTopic": "Faktaa biotaloudesta:",
+    "hintTopic": "Tiesithän..?",
+    "ruinTopic": " hädässä!",
+    "ruinText": " on puolikuntoinen!"
+  },
+
+  "optionsContentTexts": {
+    "soundVolume": "Äänen voimakkuus",
+    "soundOn": "Äänet päälle",
+    "soundOff": "Äänet pois",
+    "increaseVolume": "Volyymi +",
+    "decreaseVolume": "Volyymi -",
+    "endGame": "Lopeta peli",
+    "hintsOn": "Vinkit päälle",
+    "hintsOff": "Vinkit pois",
+    "pause": "Pause",
+    "fullscreenOn": "Fullscreen On",
+    "fullscreenOff": "Fullscreen Off"
+  },
+
+  "tileContentTexts" : {
+    "structureCategories": {
+      "production": "Alkutuotanto",
+      "refinery": "Jalostamo",
+      "special": "Erikoisrakennus"
+    },
+
+    "tileInformationTexts": {
+      "groundType": "Maatyyppi",
+      "flowers": "Kukat",
+      "moisture": "Kosteus",
+      "fertility": "Ravinteikkuus",
+      "owner": "Maanomistaja"
+    },
+
+    "structureInformationTexts": {
+      "structure": "Rakennus",
+      "foundingYear": "Perustamisvuosi",
+      "size": "Koko",
+      "turnipsPerWeek": "Tuotanto (nauriita/vko)",
+      "moneyPerWeek": "Tuotto (€/vko)"
+    },
+
+    "structureRuiningTexts": {
+      "structureHealth": "Rakennuksen kunto",
+      "repairCost": "Korjauskustannus",
+      "repair": "Korjaa",
+      "insufficientFunds": "Rahat eivät riitä",
+      "inPerfectCondition": "Täydellisessä kunnossa"
+    },
+    "moreInfo": "Lisää tietoa"
+  },
+
+  "structureInfoContent": {
+    "structureInfo": "Rakennuksen tiedot",
+    "soldTo": "Myy turnipsit",
+    "city": "kaupunki",
+    "theoreticalProduction": "Ideaali tuotanto",
+    "fertilityMultiplier": "Ravinteikkuuskerroin",
+    "moistureMultiplier": "Kosteuskerroin",
+    "flowersMultiplier": "Saastekerroin",
+    "ruiningMultiplier": "Eheyskerroin",
+    "turnipsPerWeek": "Turnipseja viikossa",
+    "estimatedProfit": "Odotettu tuotto",
+    "accumulatedProduction": "Kerääntynyt tuotto",
+    "harvest": "Sadonkorjuu",
+    "refinerySize": "Omistusmäärä",
+    "refineryMultiplier": "Tuotantokerroin"
+  }
+}

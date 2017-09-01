@@ -1,0 +1,21 @@
+{
+  "configsFile": "assets/json/configurations.json",
+  "assetsFile": "assets/json/assets.json",
+  "tileTypesFile": "assets/json/game/tile_types.json",
+  "structureTypesFile": "assets/json/game/structure_types.json",
+  "textsFile": "assets/json/texts.json",
+  "namesFile": "assets/json/names.json",
+  "gameEventsFile": "assets/json/events/game_events.json",
+  "structureHintsFile": "assets/json/events/structure_hints.json",
+  "bioFactsFile": "assets/json/events/bio_facts.json",
+
+  "configsName": "configurations",
+  "assetsName": "assets",
+  "tileTypesName": "tileTypes",
+  "structureTypesName": "structureTypes",
+  "textsName": "texts",
+  "namesName": "names",
+  "gameEventsName": "gameEvents",
+  "structureHintsName": "structureHints",
+  "bioFactsName": "bioFacts"
+}
